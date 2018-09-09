@@ -22,10 +22,14 @@ echo "¡Qué trabajo me ha costado!";
 echo "<h1>Arreglo Ciudades</h1>";
 $paises = 
 [
-    [Colombia => 
     [
-        "Bogotá", "Medellín", "Cali"
+    'Colombia' =>    "Bogotá", "Medellín", "Cali"
+    ],
+
+    [
+    'Usa' => "San Francisco, New Orleans, Boston"
     ]
+    
 ];
 
 echo $paises[$Colombia[1]];
